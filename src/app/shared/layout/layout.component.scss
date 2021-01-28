@@ -1,0 +1,15 @@
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
+header {
+  background: lightpink;
+  padding: 2rem;
+}
+
+footer {
+  background: wheat;
+  padding: 2rem;
+}
