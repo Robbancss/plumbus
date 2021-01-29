@@ -4,12 +4,38 @@
   grid-template-rows: auto 1fr auto;
 }
 
-header {
+.header {
   background: lightpink;
   padding: 2rem;
 }
 
-footer {
+.content {
+  background: coral;
+  padding: 2rem;
+}
+
+.footer {
   background: wheat;
   padding: 2rem;
+}
+
+.table {
+  display: table;
+}
+
+.active {
+  color: red;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container a {
+  max-width: 20%;
+}
+
+.flex-container a span {
+  margin: auto;
 }

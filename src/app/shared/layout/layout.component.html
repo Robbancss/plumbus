@@ -1,9 +1,26 @@
 <div class="container">
-  <header>Header</header>
 
-  <div>
+  <div class="header">
+    <mat-nav-list class="flex-container">
+      <a mat-list-item [routerLink]="['home']" [routerLinkActive]="['active']">
+        <span>
+          Home
+        </span>
+      </a>
+      <a mat-list-item [routerLink]="['characters']" [routerLinkActive]="['active']">
+        <span>
+          Characters
+        </span>
+      </a>
+    </mat-nav-list>
+  </div>
+
+  <div class="content">
     <router-outlet></router-outlet>
   </div>
 
-  <footer>Footer</footer>
+  <div class="footer">
+    footer
+  </div>
+
 </div>
