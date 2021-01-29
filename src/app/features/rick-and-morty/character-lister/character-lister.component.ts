@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnDestroy, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-character-lister',
@@ -10,6 +10,7 @@ export class CharacterListerComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    console.log('OnInit: CharacterListerComponent');
   }
 
 }
