@@ -1,1 +1,8 @@
-<p>character-lister works!</p>
+<h1>Characters</h1>
+
+<ng-container *ngFor="let char of characterList.results">
+  <div>
+    <h1>{{char.name}} | {{char.status}} | {{char.created}}</h1>
+
+  </div>
+</ng-container>
